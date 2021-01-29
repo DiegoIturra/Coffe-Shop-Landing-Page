@@ -1,39 +1,44 @@
-
 .body{
     margin: 0px;
 }
 
-ul {
+.nombre{
+    font-family: 'Pacifico', cursive;
+}
+
+
+ul{
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     overflow: hidden;
     background-color: black;
     max-width: 100%;
-  }
+}
   
-  li {
+li {
     float: right;
     border-right: 1px solid #bbb;
-  }
+}
 
-  li:last-child{
-      border-right: none;
-  }
+li:last-child{
+    border-right: none;
+}
 
-  li a {
+li a {
     display: block;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
+    font-family: 'Lato', sans-serif;
+}
 
-  li a:hover {
+li a:hover {
     background-color: rgb(100, 0, 0);
-  }
+}
 
-  .li{
+.li{
     text-align: left;
 }
 
@@ -71,8 +76,8 @@ ul {
 }
 
 .contenedor-secundario p , .contenedor-secundario h1{
-    color: var(--blancoo);
-    font-family: 'Krub',sans-serif;
+    color: var(--blanco);
+    font-family: 'Lato', sans-serif;
 }
 
 .contenedor-secundario h1{
